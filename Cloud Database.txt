@@ -1,0 +1,39 @@
+dreamcricket1247@gmail.com
+
+dreamcricket_1247
+
+
+
+DB User
+
+dream
+
+dream123
+
+
+mongodb+srv://dream:<password>@cluster0-awmrr.mongodb.net/test
+
+
+const uri = "mongodb+srv://dream:dream123@cluster0-awmrr.mongodb.net/test?retryWrites=true";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  console.log("Connected successfully to MongoDB Atlas");
+  // perform actions on the collection object
+  client.close();
+});
+
+https://cloud.mongodb.com
+
+
+dreamcricket1247@gmail.com
+
+dreamcricket_1247
+
+
+
+DB User
+
+dream
+
+dream123
